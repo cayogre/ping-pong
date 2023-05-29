@@ -31,10 +31,15 @@ ball = {
 function setup(){
   canvas =  createCanvas(700,550);
   canvas.parent("canvas")
+  video = createCapture(VIDEO)
+  video.hide()
+  poseNet = ml5.poseNet(video, modelload())
 }
-
-
+function modelload(){
+console.log("tudo certo por aqui")
+}
 function draw(){
+  image(video, 0, 0, 700, 550);
 
   background(0); 
 

@@ -15,3 +15,8 @@ body
 #terminarei{
     background-color: darkcyan;
 }
+canvas{
+    border-radius: 20px;
+    border: 5px;
+    border-style: groove;
+}
