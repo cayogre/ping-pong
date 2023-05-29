@@ -1,0 +1,17 @@
+body
+{
+
+}
+.heading h1{
+    display: inline;
+    float: center;
+}
+.heading{
+    width: 100%;
+}
+.heading button{
+    float: right;
+}
+#terminarei{
+    background-color: darkcyan;
+}
